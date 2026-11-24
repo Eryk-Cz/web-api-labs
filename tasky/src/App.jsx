@@ -2,7 +2,7 @@ import './App.css';
 import Task from './components/Task';
 import AddTaskForm from './components/Form';
 import React, { useState, useEffect } from 'react';
-import {getTasks, addTask, deleteTask, updateTask} from "/api/tasky-api";
+import {getTasks, addTask, deleteTask, updateTask} from "./api/tasky-api";
 
 function App() {
   
